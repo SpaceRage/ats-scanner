@@ -8,3 +8,5 @@ Utilizes:
 - Sentiment analysis
 - LLM-based similarity
 - Primitive skills keyword matching
+
+![image](https://github.com/user-attachments/assets/ea07e49e-0b3c-439e-be92-b6f8cc2977eb)
