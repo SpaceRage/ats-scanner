@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./backend # Point to your backend directory
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app # Mount the backend folder as /app inside the container
+    working_dir: /app
+    environment:
+      - PYTHONPATH=/app # Ensure Python can locate the modules
